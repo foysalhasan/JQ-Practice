@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Titillium+Web:wght@300;400&display=swap');
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Nunito', sans-serif;
+}
+
+.hover_content{
+  bottom: 0px;
+  left: 20px;
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+.box:hover .hover_content{
+  bottom: 30px;
+  opacity: 1;
+}
+.hover_content h2{
+  font-size: 22px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.hover_content p{
+  color: #fff;
+}
+
+.social{
+  top: 30px;
+  right: 0px;
+  opacity: 0;
+  transition: all .2s linear;
+}
+
+.box:hover .social{
+  right: 30px;
+  opacity: 1;
+}
+
+
+.social li a{
+  display: block;
+  height: 40px;
+  width: 40px;
+  margin-left: 5px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+  color: #fff;
+  background-color: dodgerblue;
+  transition: 1s ease;
+
+
+}
+
+.social li a:hover{
+  background-color: #ff4646;
+}
